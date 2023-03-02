@@ -1,0 +1,5 @@
+#!/bin/sh
+set -euf
+
+cd "$1"
+./maelstrom test -w echo --bin "${GOBIN}/maelstrom-echo" --node-count 1 --time-limit 10

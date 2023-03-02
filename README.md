@@ -26,11 +26,7 @@ A series of distributed systems challenges found at <https://fly.io/dist-sys/>.
   ```
   $ go get github.com/jepsen-io/maelstrom/demo/go
   $ go install .
-  ```
-* Run `maelstrom`.
-  ```
-  $ cd ../maelstrom
-  $ ./maelstrom test -w <challenge-name> --bin ~/"$GOBIN"/my-module <additional-parameters>
+  $ ./run ../maelstrom
   ```
 
 ## Debugging
